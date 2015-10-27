@@ -1,0 +1,26 @@
+"OrderOwned;"type";"year";"make";"model";"color";"modifiedDate"
+1;"motorcycle";1969;"Kawasaki";"250";"Purple";1445640624
+
+2;"car";1968;"Fiat";"850 Spider";"Red";1445640680
+3;"car";1969;"Volkswagen";"fastback";"Red";1445640664
+
+4;"car";1974;"Audi";"Fox";"Blue";1445640639
+5;"motorcycle";1974;"Honda";"400F";"Blue";1445640730
+6;"car";1976;"Volkswagen";"Scirocco";"Silver";1445640829
+
+7;"motorcycle";1978;"Yamaha";"650";"Green";1445640904
+9
+8;"car";1972;"Opel";"Manta Rallye";"Orange";1445640969
+10
+9;"car";1980;"Mazda";"626 Anniv Ed";"Metallic Red";1445641210
+11
+10;"car";1971;"Ford";"Pinto";"Beater Blue";1445642128
+12
+11;"van";1979;"Dodge";"Cargo an";"White";1445642205
+12;"car";1978;"Datsun";"280Z";"Green";1445642251
+13;"car";1980;"Toyota";"Corolla";"Brown";1445642341
+14;"suv";1992;"Jeep";"Cherokee";"Red";1445642381
+16
+15;"car";1990;"Subaru";"Legacy awd wagon";"beige";1445642465
+17
+16;"car";1991;"Audi";"200q20v";"Silver";1445642507
