@@ -44,9 +44,7 @@ class InventoryManager extends Inventory
     private function _add($vehicle){
         $db = new Db();
 
-        $maxOrderOwned = $db->query("select MAX(orderOwned) from vehicles);");
-
-        $orderOwned = $maxOrderOwned + 1;
+        $orderOwned = $db->quote($vehicle->getOrderOwned());
         $type = $db->quote($vehicle->getType());
         $modelYear = $db->quote($vehicle->getmodelYear());
         $make = $db->quote($vehicle->getMake());

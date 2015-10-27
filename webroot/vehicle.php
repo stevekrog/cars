@@ -30,6 +30,12 @@
                 break;
             case 'add_vehicle':
                 $vehicle = new Vehicle();
+                $MaxOrderOwned = NULL;
+                if($vehicle->getOrderOwned() == ''){
+                    $db = new Db();
+                    $MaxOrderOwned = $db->query("select max(orderOwned) from vehicles);") + 1;
+                    $vehicle->setOrderOwned($MaxOrderOwned);
+                }
                 include('../views/vehicle_add_edit.php');
                 break;
             case 'edit_vehicle':
